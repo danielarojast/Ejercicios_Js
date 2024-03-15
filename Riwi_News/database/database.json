@@ -1,0 +1,28 @@
+{
+  "news": [
+    {
+      "id": "082b",
+      "name": "Ultima noticia agregada",
+      "image": "",
+      "categoryId": "1ebc",
+      "content": "dasdasdasdasd",
+      "userId": "d371",
+      "publicationDate": "2"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1ebc",
+      "name": "nueva categoria",
+      "description": "Descriopcion de la nueva categoria\n"
+    }
+  ],
+  "users": [
+    {
+      "id": "d371",
+      "name": "Your Name",
+      "email": "test@riwi.io",
+      "password": "riwi2024"
+    }
+  ]
+}
