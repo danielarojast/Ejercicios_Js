@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color:rgb(5, 5, 75);
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    background-color: rgb(3, 3, 71);
+    padding: 100px;
+    width: 100%;
+}
+
+#contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 100px;
+};
+
+.modal-content{
+    background-color: rgb(59, 59, 59);
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.tablaModal{
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
+    border-color: aliceblue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}

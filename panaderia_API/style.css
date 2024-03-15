@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    padding: 60px 0 50px 0;
+}
+#cadaPlato{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}

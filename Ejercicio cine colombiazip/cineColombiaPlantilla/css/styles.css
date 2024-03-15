@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+ img{
+    width: 250px;
+    border-radius: 20px;
+} 
+
+p{
+    color: rgb(15, 15, 15);
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    font-size: 16px;
+    background-color: rgb(210, 209, 209);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: 90px;
+    border-radius: 18px;
+}
+
+
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 100px; 
+    background-color: rgb(5, 11, 58);
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 50px; */
+    
+}
+
+header nav a{
+color: white;
+background-color: rgb(31, 31, 96);
+padding: 10px;
+border-radius: 18px;
+text-decoration: none;
+font-weight: 700;
+}
+
+header nav a:hover{
+    background-color: blue;
+}
+
+input{
+   padding: 1rem;
+   border-radius: 18px;
+}
+
+.ciudad{
+    color: white;
+}
+
+.peliculas{
+    /* margin-top: 20px;
+    display: flex;
+    justify-content: center; */
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.pelicula_detalle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+}
+
+.pelicula_detalle p{
+    background-color: rgb(31, 31, 96);
+    color: white;
+    width: 215px;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-top: .7rem;
+    text-align: center;
+}
+
+.pelicula_detalle p:hover{
+    background-color:blue ;
+}
